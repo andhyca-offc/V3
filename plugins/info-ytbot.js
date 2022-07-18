@@ -3,15 +3,15 @@ let handler = async (m, { conn, args, command }) => {
 let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
- await conn.sendButton(m.chat, `YT: FANGZ BOT\n`,wm + '\n\n' + botdate, giflogo, [['OK','ok']], m, {
+ await conn.sendButton(m.chat, `YT: Andhyca Rhizky\n`,wm + '\n\n' + botdate, giflogo, [['OK','ok']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: bottime,
-                        body: 'By Fangz',          previewType: 0,
+                        title: '「 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」',
+                        body: botdate,          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
-                        sourceUrl: https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg
+                        sourceUrl: https://youtube.com/channel/UCtt_8qM9i8x83BY_U8oozOg
                       }}
 })
 }
