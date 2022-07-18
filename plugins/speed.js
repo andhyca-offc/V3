@@ -71,7 +71,6 @@ ${htki} *SERVER* ${htka}
 
 *💻 Platform:* ${os.platform()}
 *🧿 Server:* ${os.hostname()}
-By: ꜰᴀɴɢᴢɢᴀɴᴢ
 ${readMore}
 *${htjava} NodeJS Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
@@ -81,7 +80,7 @@ ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type =>
 
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
-`,botdate, null, sgc, 'By ꜰᴀɴɢᴢɢᴀɴᴢ', null,null, [[null,null],[null,null],[null,null]], m)
+`,botdate, null, sgc, 'YOUTUBE BOT', null,null, [[null,null],[null,null],[null,null]], m)
 }
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']
