@@ -4,10 +4,10 @@ let text = `${htki} TRI3 ${htka}
 Hay👋‹, ingin Donasi?
 
 💌 *Pembayaran*
-💳 Via: Pulsa Tri3
-📞 Nomor: 0895394988123
-👤 A/n: Fangz
-📝 Mitra: Fangz BOT
+💳 Via: Pulsa Xl Alata
+📞 Nomor: 087829536442
+👤 A/n: Ⓚ︎🅘︎Ⓝ︎🅖︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ
+📝 Mitra: 𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ
 💰 Metode pembayaran: Online ( ~Cod~ )
 
 
