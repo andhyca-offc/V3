@@ -4,12 +4,12 @@ let handler = async (m, { conn }) => {
     /*conn.sendTemplateButtonDoc(m.chat, col, `*Link Group:* ${await conn.getName(m.chat)}\n\nhttps://chat.whatsapp.com/` + await conn.groupInviteCode(m.chat), wm, 'Info Grup', '.infogrup', m)*/
 
 conn.sendMessage(m.chat, {
-  text: `Fangz BOT Website`,
+  text: `𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐁𝐨𝐭𝐳-𝐌𝐝ོ Website`,
   templateButtons: [{
     index: 1,
     urlButton: {
-      displayText: `Link`,
-      url: 'https://fangzbot.websites.co.in/'
+      displayText: 'Website Instagram',
+      url: sig
     }
   }],
   footer: wm
